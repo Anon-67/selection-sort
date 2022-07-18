@@ -1,5 +1,7 @@
 function selectionSort(arr) {
-  // type your code here
+
+  let newArr = arr.sort((a,b) => a - b)
+  return newArr
 }
 
 if (require.main === module) {
